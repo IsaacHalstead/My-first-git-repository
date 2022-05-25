@@ -9,7 +9,7 @@ set seed 42
 local sig = 0
 
 * Repeat the simulation 1000 times
-forvalues i = 1(1)1000 {
+forvalues i = 1(1)10000 {
   clear
   quietly set obs 100
   
